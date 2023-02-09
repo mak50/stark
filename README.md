@@ -46,3 +46,66 @@ println("<Meri> Eu achei bem chato")
 
 
 //....................................................................................................................................................
+/*
+fun main() {
+    // Tipos de variáveis: 
+// 
+//String - armazena valores de tipo texto - detro de ""  ==> ex: "abóbora"
+//Int - armazena números interiores  ==> 1822
+//Float - armazena números reais (no geral) - necessita de um f no valor  ==>72.24f
+//Double - armazena números quebrados (de forma arredondada)  ==> 8.9
+//Long - armazena números longos 56464656.3572354
+//Boolean - verdadeiro ou falso ==> true, false 
+/*
+var cr7 = "Cristiano Ronaldo"
+var numeroChampions = 5
+var altura = 1.87 
+     
+//Concatenação 
+
+println("O nome dele é " + cr7 +", ele tem " + numeroChampions)
+print("titulos de Champions Legue e ele tem "+ altura + "de altura")
+
+
+
+var laPulga = "Lionel Messi "
+var champions = 4 
+var alturaDele = 1.02  
+print("O nome dele é $laPulga, ele tem $champions títulos de champions, ele tem apenas $alturaDele de altura" )
+*/
+
+
+/*
+var ninsay = "iasmin" 
+var idade = 16 
+var tamanho = 1.65
+var gostaDe = "Assistir,ler e desenhar" 
+var mj = " eu sou fã do Michael Jackson"
+    
+print("Meu nome é $ninsay, tenho %idade anos,tenho apenas $tamanho de altura,sou uma pessoa que não fico quieta eu gosto de $gostaDe, e $mj")
+*/ 
+    
+    
+//Operadores matemáticos 
+//
+// + => adição 
+// - => subtação 
+// / => divisão 
+// * => multiplicação 
+// % => módulo 
+
+//println( 100 *100 ) 
+//
+//
+//== => igual 
+//!= => diferente 
+// >=> maior que ..... 
+// <=> menor que ...... 
+// >= -> maior or igual a ..... 
+// <= -> menor ou igual a ..... 
+// 
+*/
+    
+ 
+
+}
