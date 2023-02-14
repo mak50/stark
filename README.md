@@ -106,6 +106,30 @@ print("Meu nome é $ninsay, tenho %idade anos,tenho apenas $tamanho de altura,so
 // 
 */
     
+ var y = 5
+ var rdj = 50 
+    
+ println("~~~~~~~~~~~~~~~~~~~~~~~~~~~")   
+ println("  (: CALCULADORA :)      " )  
+ println("~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+ println("$y + $rdj =                ")
+ println(y+rdj                        )
  
+ println("---------------------------")
+ 
+ println("$y - $rdj =                ")
+ println(y-rdj                        )  
+ 
+ println("---------------------------")
+ 
+ println("$y * $rdj =                ")
+ println(y*rdj                        )
+ 
+ println("---------------------------")
+ 
+ println("$rdj / $y =                ")
+ println(rdj/y                        )
+ 
+ println("~~~~~~~~~~~~~~~~~~~~~~~~~~~")  
 
 }
