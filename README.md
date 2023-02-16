@@ -133,3 +133,72 @@ print("Meu nome é $ninsay, tenho %idade anos,tenho apenas $tamanho de altura,so
  println("~~~~~~~~~~~~~~~~~~~~~~~~~~~")  
 
 }
+  
+  
+  //................................................................................................
+
+  
+  fun main() {  
+    
+    //Condições 
+    //
+    //condição simples 
+    //
+    //if  --> se... 
+    //else --> senão... 
+    /*
+    var lembreidochocolate ="sim"     
+    
+    if(lembreidochocolate == "sim"){
+        println("Vou entregar o chocolate para você") 
+    }else{ 
+        println("Chocolate pra todo mundo")           
+    }      
+    //se a condição for verdadeira, a sua ação será executada, senão,  outra ação será 
+    //executada 
+    // 
+   
+   
+   var mjfezaturnethisisit = "não" 
+    
+   if (mjfezaturnethisisit == "não"){
+   println("Não ele não fez" ) 
+   }else{
+   println("isso é tudo" ) 
+   } 
+   
+   //condições compostas  
+   
+   var coracoes = 1 
+    
+    if(coracoes == 5){ 
+        println("Você está ótimo!! Bom para vc") 
+    }else if(coracoes == 4){ 
+        println("Ce ta bem") 
+    }else if(coracoes == 3)      
+    println("ce tá ok") 
+    
+    */ 
+    
+    var idade = 18
+    
+    if(idade<=3){ 
+        println("Você é um bebe") 
+    }else if(idade <=12){ 
+        println("Você é muito infantil!!") 
+    }else if(idade <=18){ 
+        println("tu é jovem!! aproveite a vida") 
+    }else if (idade <=60){
+        println("Tu é adulto!! pague a conta!!!!") 
+    }else if(idade > 60){ 
+        println("Que que há velhinho?") 
+    }else{ 
+        println("Você não existe!!:)") 
+    }   
+    
+    
+    
+   
+
+}
+        
