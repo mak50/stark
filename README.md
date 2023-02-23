@@ -195,9 +195,72 @@ print("Meu nome é $ninsay, tenho %idade anos,tenho apenas $tamanho de altura,so
     }else{ 
         println("Você não existe!!:)") 
     }   
+//------------------------------------------------------------------------------------------------    
+    
+  fun main() {
+ 
+    //Operadores Lógicos 
+    //
+    //são usados quando queremos comparar mais de uma coisa na mesma condição 
+    //
+    // && => e 
+    // || => ou (shift + barra invertida) 
+    // 
+    // TABELA VERDADE (com E e OU ) 
+    // 
+    // && - a determinada ação só acontecerá se e somente se todas as 
+    // condições forem verdadeiras 
+    // 
+    // VV => verdadeiro 
+    // VF => falso 
+    // FV => falso 
+    // FF => falso 
+    // 
+    // || - a determinada ação será executada se pelo menos uma das 
+    // condições forem verdadeiras 
+    // 
+    // VV => verdadeiro 
+    // VF => verdadeiro 
+    // FV => verdadeiro 
+    // FF => falso 
+    //
+    // Show do Péricles  
+    /*
+    var idade = 14
+    var acompanhadoDosPais = false
+    
+    
+    if(idade >= 14 || acompanhadoDosPais == true){
+        println("Pode entrar, curta o show")
+    }else{
+        println(" A entrada não é permitida para você ")
+    }   
+  */ 
+    //Exercício ~~ A seleção brasileira está correndo risco de ser eliminada na fase de grupos 
+    //da copa, o Brasil, só pode se classificar se o México perder, e se o próprio Brasil 
+    //ganhar.As partidas já passaram, quero saber se o Brasil se classificou ou não.
+    //
+    // detalhe: use os operadores lógicos. 
+    // 
+    // ----- COPA---- 
+    
+   
+    var aPERDEU = true 
+    var bGANHOU = true
+    
+    if(aPERDEU == true || bGANHOU == false){
+        println("ae México perdeu!!")
+    }else{ 
+        println("No próximo ano talvez")
+    }    
+//-----------------------------------------------------------------------------------------------------------------    
     
     
     
+    
+      
+    
+   
    
 
 }
