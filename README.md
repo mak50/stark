@@ -255,6 +255,66 @@ print("Meu nome é $ninsay, tenho %idade anos,tenho apenas $tamanho de altura,so
     }    
 //-----------------------------------------------------------------------------------------------------------------    
     
+fun main() {
+    
+   //Exercício ~~ A seleção brasileira está correndo risco de ser eliminada na fase de grupos 
+    //da copa, o Brasil, só pode se classificar se o México perder, e se o próprio Brasil 
+    //ganhar.As partidas já passaram, quero saber se o Brasil se classificou ou não. 
+    // detalhe: use os operadores lógicos.  
+    
+    /*
+    var brasil = false 
+    var alemanha = true 
+    var marrocos = true 
+    
+    if(!alemanha && brasil && !marrocos ){ 
+        println("Pode isso Arnaldo, Brasil classificado!! Rumo ao hexa! Haja coração") 
+    }else{ 
+        println("Acabou, só queria dar alegria ao meu povo") 
+    }     
+   */ 
+    
+ // WHEN = Quando 
+ // 
+ // Quando uma determinada condição for verdadeira, outra determinada 
+ // ação será executada. 
+ // 
+ //  Estrutura Do When: 
+ //  
+ // when(var){ 
+ // valor -> ação a ser executada 
+ // outroValor -> ação
+ // maisUm -> ação 
+ // outro -> ação 
+ // else -> ação 
+ //  
+ // 
+     
+ var mes = 2    
+    
+ when(mes){ 
+     1 -> println("Acapulco - Mex") 
+     2 -> println("Paris - Fra" )
+     3 -> println("Berlim - Ale" )
+     4 -> println("Monaco - Mon" )
+     5 -> println("Pequim - Chi" )
+     6 -> println("Acre - Bra" )
+     7 -> println("Roma - Itá")
+     8 -> println("Atena - Gre ")
+     9 -> println("Madrid - Esp")
+     10 -> println("Manchester - Ing")
+     11 -> println("Dubai - Eau")
+     else -> println("São Paulo - Bra") 
+ } 
+ 
+//===================================================================================================================== 
+ 
+     
+
+   
+    
+
+    
     
     
     
