@@ -389,7 +389,44 @@ fun main() {
  //==================================================================================================================   
     
     
+    fun main() { 
     
+  // for => para... 
+  // 
+  // for - para cada item em uma lista ou qualquer tipo de coleção, será executado uma 
+  // determinada ação 
+  // 
+  // Estrutura do for : 
+  // for (item in list/collection/intervalo){ 
+  // ação 
+  // } 
+  // 
+  /*
+  for(item in 1..10){ 
+      println(item) 
+  }   
+  
+  //Exercicío: faça a tabuada de um número de sua escolha(não pode ser a do 0,1,2 e 10) 
+  //.OBS: precisa utilizar o laço for 
+  //
+  
+   for(item in 1..10){ 
+      println(item * 5 )     
+  }   
+  */
+  // Repeat => Repita... 
+  // 
+  // Uma determinada ação será repetida um determinado número de vezes 
+  //  
+   
+  repeat(5*1+5){ 
+      println("||-----tartaruga-----||") 
+  }    
+  
+  //**********************************************************************************************************************************
+
+
+
     
         
 
