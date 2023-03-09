@@ -426,6 +426,66 @@ fun main() {
   //**********************************************************************************************************************************
 
 
+fun main() {
+    
+    //Collections - Coleções 
+    //
+    //<> ---> tags = servem para especificar o tipo de valor a ser listado
+    //
+    //São determinados conjuntos de itens/valores  que podem ser modelados e utilizados 
+    //em determinados métodos e operações. 
+    //
+    //list - listas 
+    //
+    //listOf --->listam itens de variados tipos 
+    // 
+    
+    //var genericlist = mutableListOf("São Paulo, arroz e pamonha",25.7f, 23.974,'$', false)   
+    //println(genericlist) 
+    
+    var specificlist = listOf<String>("cruzeiro do Roberto Carlos","Calleri","5" ) 
+    println(specificlist) 
+    
+    
+    //Index - uma posição da collection  
+    
+    //Propriedades - list 
+    //
+    // .lastIndex 
+    // .size 
+    // 
+    // 
+    //println(specificlist.lastIndex) 
+    //println(specificlist.first()) 
+    //println(specificlist.size) 
+    //println(specificlist.get(2)) 
+    //println(specificlist[2]) 
+    //println(specificList.indexOf("Cruzeiro do Roberto Carlos"))
+    
+    /*
+    //Métodos --> listOf 
+    genericlist.add(2,"mak") 
+    println(genericlist) 
+    genericlist.remove(23.974) 
+    println(genericlist) 
+    genericlist.removeAt(3) 
+    println(genericlist) 
+    genericlist.set(0, "tartaruga") 
+    println(genericlist) 
+    
+    genericlist.clear() 
+    println(genericlist) 
+    */
+    var anotherlist = setOf("Pedro","Diniz", "Pelé", "Ronaldinho", "Marília Mendonça", "Diniz")   
+     println(anotherlist) 
+     
+    var animal = mutableMapOf("tartaruga" to 0, "jabuti" to 1, "tucano"   to 2, "hiena"to 3, "macaco"  to 4, ) 
+    println(animal)
+   
+//---------------------------------------------------------------------------------------------------------------------------
+    
+}    
+    
 
     
         
