@@ -486,6 +486,83 @@ fun main() {
     
 }    
     
+fun main() { 
+    /*
+    /Métodos --> listOf 
+    genericlist.add(2,"mak") 
+    println(genericlist) 
+    genericlist.remove(23.974) 
+    println(genericlist) 
+    genericlist.removeAt(3) 
+    println(genericlist) 
+    genericlist.set(0, "tartaruga") 
+    println(genericlist) 
+    
+    genericlist.clear() 
+    println(genericlist) 
+    */
+   //var anotherlist = setOf("Pedro","Diniz", "Pelé", "Ronaldinho", "Marília Mendonça", "Diniz")   
+  // println(anotherlist) 
+     /*
+    var animal = mutableMapOf("tartaruga" to 0, "jabuti" to 1, "tucano"   to 2, "hiena" to 3, "macaco"  to 4, ) 
+    println(animal) 
+    
+    animal.put("capivara",5) 
+    println(animal) 
+    animal.put("leopardo",9)
+    println(animal) 
+    animal.replace("tatu",3) 
+    println(animal) 
+   */ 
+    
+    //POO 
+    //
+    // Programação Orientada a objetos 
+    //
+    // Objetos = estados (características: nome, idade, cpf )
+    //
+    // Comportamentos - (andar, comer, dormir, conversar,programar)
+    //
+    // Classes - Modelos que servem para construção de objetos derivados
+    // 
+    val pessoa1 = Pessoa() 
+    pessoa1.nome = "Ninsay Pierre" 
+    println(pessoa1.nome) 
+    println(pessoa1.idade) 
+    println(pessoa1.altura)  
+    println(pessoa1.resultado) 
+    println(pessoa1.recomendações)
+
+        
+} 
+
+class Pessoa(){ 
+    // Declarações de atributos para a classe Pessoa 
+    var nome = "Ninsay Pierre"  
+    var idade = 23 
+    var altura = 1.60 
+    var resultado = "A paciente apresentou intolerância lactose " 
+    var recomendações = " É recomendado evitar leite e seus derivados. "
+    
+// Exercício - Faça uma ficha médica apontando os resultados do último checkup de um cliente. 
+// Permitido usar a mesma classe pessoa()   
+    
+    
+//-----------------------------------------------------------------------------------------------------------------    
+    
+}    
+    
+
+
+
+
+
+
+
+
+
+
+
 
     
         
