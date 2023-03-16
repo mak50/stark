@@ -551,7 +551,49 @@ class Pessoa(){
 //-----------------------------------------------------------------------------------------------------------------    
     
 }    
+    fun main() { 
+   
+// Exercício - Faça uma ficha médica apontando os resultados do último checkup de um cliente. 
+// Permitido usar a mesma classe pessoa()    
+
+    var paciente007 = Paciente()
+    paciente007.nome = "James Bond" 
+    paciente007.idade = 12 
+    paciente007.altura = 1.70 
+    paciente007.alergia = "Manteiga de Amendoim" 
+    paciente007.tiposanguineo = "O+" 
+    paciente007.medicamento = "Dipirona" 
+    paciente007.peso = 70.0 
+    paciente007.dependentequimico = true 
+        
+    println("==========Ficha Médica==========")  
     
+    println("nome"+ paciente007.nome) 
+    println("idade"+ paciente007.idade) 
+    println("altura"+ paciente007.altura) 
+    println("peso "+ paciente007.peso) 
+    println("alergia"+ paciente007.alergia) 
+    println("Tipo Sanguineo"+ paciente007.tiposanguineo) 
+    println("Dependente Químico?"+ paciente007.dependentequimico) 
+    println("medicamento"+ paciente007.medicamento)         
+}
+   class Paciente(){ 
+       
+    var nome = ""
+    var idade = 0
+    var altura = 0.0 
+    var alergia = "string"
+    var tiposanguineo = "string"
+    var medicamento = "string"
+    var peso = 00.00
+    var dependentequimico = true
+    
+   } 
+ //-----------------------------------------------------------------------------------------------------------   
+    
+    
+    
+
 
 
 
