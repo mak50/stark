@@ -592,6 +592,79 @@ class Pessoa(){
  //-----------------------------------------------------------------------------------------------------------   
     
     
+fun main() { 
+    
+  /*
+    var jogador1 = JogadorDeFutebol("Neymar","PSG",10,"Brasileiro","Puma","Meio-Atacante",222.0 )
+      
+    println(jogador1.nome) 
+    
+// Exercício - Faça a escalação do seu time exibindo nome, número da camisa e posição 
+// no minímo 11 jogadores.
+  */
+  var jogador = Time("Suga",1,"Goleiro") 
+   println(jogador.nome)
+   
+  var jogador1 = Time("J",2,"Atacante") 
+  println(jogador1.nome)
+  
+  var jogador2 = Time("V",3,"Meio-Atacante") 
+  println(jogador2.nome)
+  
+  var jogador3 = Time ("Jin",4,"Volante")
+  println(jogador3.nome)
+  
+  var jogador4 = Time ("Mick",5,"Centroavante")
+  println(jogador4.nome)
+  
+  var jogador5 = Time ("Jack",6,"Goleiro Reserva")
+  println(jogador5.nome)
+  
+  var jogador6 = Time("Farrokh",7,"Zagueiro")
+  println(jogador6.nome)
+  
+  var jogador7 = Time("Bulsara",8," Lateral Direita")
+  println(jogador7.nome)
+  var jogador8 = Time("Brian",9,"Lateral Esquerda ")
+  println(jogador8.nome)
+  var jogador9 = Time("Taylor",10,"Meio-Armador")
+  println(jogador9.nome)
+  var jogador10 = Time("Adam",11,"Ponta")
+  println(jogador10.nome)
+
+
+  
+  println(jogador.nome: )
+  println(jogador.numero)
+  
+} 
+/*
+class JogadorDeFutebol(var nome: String,
+                      var time: String,
+                      var numero:Int,
+                      var nacionalidade:String,
+                      var patrociio:String,
+                      var posicao:String,
+                      var preco: Double){ 
+ */  
+    
+   class Time(var nome: String, 
+             var numero: Int,
+             var posicao: String){ 
+       
+       
+       
+   }     
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
     
 
 
