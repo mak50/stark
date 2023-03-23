@@ -656,7 +656,101 @@ class JogadorDeFutebol(var nome: String,
        
    }     
        
-       
+   fun main() { 
+    /*
+ println("----- Escalação Ninsys-----")   
+ var jogador1 = Time("J",2,"Atacante") 
+  println(jogador1.nome +"-" + jogador1.numero + "-" + jogador1.posicao) 
+  println("~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+
+  
+  var jogador2 = Time("V",3,"Meio-Atacante") 
+  println(jogador2.nome)
+  println(jogador2.numero)
+  println(jogador2.posicao)
+  println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+
+    
+  var jogador3 = Time ("Jin",4,"Volante")
+  println(jogador3.nome)
+  println(jogador3.numero)
+  println(jogador3.posicao)
+  println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+
+
+  
+  var jogador4 = Time ("Mick",5,"Centroavante")
+  println(jogador4.nome)
+  println(jogador4.numero)
+  println(jogador4.posicao)
+  println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+
+  
+  var jogador5 = Time ("Jack",6,"Goleiro Reserva")
+  println(jogador5.nome)
+  println(jogador5.numero)
+  println(jogador5.posicao)
+  println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+
+
+  
+  var jogador6 = Time("Farrokh",7,"Zagueiro")
+  println(jogador6.nome)
+  println(jogador6.numero) 
+  println(jogador6.posicao)
+  println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+
+
+ 
+  var jogador7 = Time("Bulsara",8," Lateral Direita")
+  println(jogador7.nome)
+  println(jogador7.numero)
+  println(jogador7.posicao)
+  println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+
+  
+  var jogador8 = Time("Brian",9,"Lateral Esquerda ")
+  println(jogador8.nome)
+  println(jogador8.numero) 
+  println(jogador8.posicao)
+  println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+
+  
+  var jogador9 = Time("Taylor",10,"Meio-Armador")
+  println(jogador9.nome)  
+  println(jogador9.numero) 
+  println(jogador9.posicao)
+  println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+
+
+  
+  var jogador10 = Time("Adam",11,"Ponta")
+  println(jogador10.nome) 
+  println(jogador10.numero) 
+  println(jogador10.posicao)
+  println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+*/
+
+    
+    //Métodos/ Funções -> são um grupo de ações que representam uma determinada atividade de um 
+    //determinado objeto. 
+    //Estrutura de um método no Kotlin
+    //
+    //fun nomeDela (parametros -> se tiver){
+    //ações 
+    //}
+    //
+    //var nomeDoObjeto = ClassDeLe ()
+    //nomeDoObjeto.nomeDela()
+    
+}
+ 
+   class Time(var nome: String, 
+             var numero: Int,
+             var posicao: String){ 
+   }
+ 
+    //-----------------------------------------------------------------------------------------------------
        
        
        
